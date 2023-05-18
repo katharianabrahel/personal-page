@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Engenheiro Civil, fanático por tecnologia, apaixonado por videogames e viciado em aprender. Conheça Katharian Abrahel, seus projetos e experiência.">
+    <title>Katharian Abrahel</title>
+    <link rel="shortcut icon" href="./images/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
+</head>
+<body id="inicio">
+    <header id="header">
+        <ul class="navegacao">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#quem-sou">Quem sou eu</a></li>
+            <li><a href="#formacao">Formação</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </header>
+
+    <div class="apresentacao">
+        <div class="itens-apresentacao">
+            <div class="texto-apresentacao">
+                <h1>Katharian Abrahel</h1>
+                <p>Engenheiro Civil, fanático por tecnologia, apaixonado por videogames e viciado em aprender.</p>
+                <div class="redes-sociais">
+                    <a href="https://www.instagram.com/katharian_abrahel/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/katharianabrahel" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/katharianabrahel" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:katharian.abrahel@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                  </div>
+            </div>
+    
+            <div>
+                <img src="./images/foto.jpg" alt="foto - Katharian Abrahel">
+            </div>
+        </div>        
+    </div>
+
+    <div class="quem-sou-eu" id="quem-sou">
+        <h2>Quem sou eu</h2>
+        <div class="titulo-quem-sou">
+            <img src="./images/img1.jpg" alt="img1">
+        </div>
+        <div class="itens-quem-sou">
+            <div class="quem-sou-texto">
+                <p>Olá, meu nome é Katharian Abrahel, um entusiasta da tecnologia e atualmente estudante de Sistemas de Informação. Tenho formação em engenharia civil e estou focado em ingressar no mercado de trabalho de TI, especialmente na área de dados. Além disso, estou sempre aprendendo e me atualizando em programação, especialmente na linguagem Python, e também estou me dedicando ao desenvolvimento web.</p>
+                <p>Com minhas habilidades em programação e minha formação em engenharia, busco soluções inovadoras e eficientes para problemas do dia a dia. Tenho muito interesse por ciência de dados e pretendo me especializar nessa área em um futuro próximo. Também tenho interesse em desenvolvimento de software e estou sempre buscando aprimorar minhas habilidades nesse campo.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="formacao" id="formacao">
+        <h2>Formação</h2>
+        <div class="itens-formacao">
+            <div class="curso-formacao">
+                <h3>Sistemas de Informação</h2>
+                <h4>2022 - Atualmente</h3>
+                <p>Cursando o 3º período pelo Centro de Informática da Universidade Federal de Pernambuco - UFPE.</p>
+            </div>
+    
+            <div class="curso-formacao">
+                <h3>Engenharia Civil</h2>
+                <h4>2015 - 2020</h3>
+                <p>Formado na UNINASSAU - Recife através do programa PROUNI.</p>
+            </div>
+        </div>    
+    </div>
+        
+    <div class="portfolio" id="portfolio">
+        <h2>Portfólio</h2>
+        <div class="projetos-externo">
+            <div class="projetos">
+                <h3>Lost Coin - Game em Python</h3>
+                <a href="https://github.com/katharianabrahel/2d-game-in-python" target="_blank"><img src="./images/LostCoin.png" alt="LostCoin" onmouseover="iniciarTrocaImagens(this,['./images/LostCoin1.png', './images/LostCoin2.png', './images/LostCoin3.png'])" onmouseout="pararTrocaImagens(this)"></a>
+                
+            </div>
+            <div class="projetos">
+                <h3>Implementação do Algoritmo de Dijkstra no metrô de Nova York</h3>
+                <a href="https://github.com/katharianabrahel/dijkstra-algorithm" target="_blank"><img src="./images/grafo_sem_valores.png" alt="grafo_sem_valores"></a>
+                
+            </div>
+            <div class="projetos">
+                <h3>Análise estatística de dados de CPU</h3>
+                <a href="https://github.com/katharianabrahel/project-statistics-and-probability-computing" target="_blank"><img src="./images/analise-estatistica.png" alt="analise-estatistica" onmouseover="iniciarTrocaImagens(this,['./images/analise-estatistica1.png', './images/analise-estatistica2.png'])" onmouseout="pararTrocaImagens(this)"></a>                
+            </div>
+        </div>        
+    </div>
+
+    <div class="contato" id="contato">
+        <h2>Contato</h2>
+        <form id="form-contato">
+            <div class="campo">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+            </div>
+            <div class="campo">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email">
+            </div>
+            <div class="campo">
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem"></textarea>
+            </div>
+            <div class="campo">
+            <button type="submit">Enviar</button>
+            </div>
+        </form>
+      </div>
+      
+
+    <footer>
+        <div class="footer">
+            <p>&copy; Katharian Abrahel</p>
+            <div class="redes-sociais">
+                <a href="https://www.instagram.com/katharian_abrahel/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/katharianabrahel" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/katharianabrahel" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:katharian.abrahel@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+              </div>
+        </div>
+    </footer>
+</body>
+</html>
